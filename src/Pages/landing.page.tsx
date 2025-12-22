@@ -55,11 +55,11 @@ export default function Portfolio() {
       github: "https://github.com/Pen-gun/Youtube",
     },
     {
-      title: "SoftechAI",
+      title: "Task Management system",
       description:
-        "Full-stack AI application with React frontend and Python backend. Implements AI-powered features with periodic cleanup utilities for temporary files and efficient resource management.",
-      tech: ["React", "TypeScript", "Python", "Vite", "Tailwind CSS"],
-      github: "https://github.com/Pen-gun/SoftechAI",
+        "Task management system with features for creating, updating, and tracking tasks. Built with React, TypeScript, and Python, utilizing Vite and Tailwind CSS for a responsive and efficient user interface.",
+      tech: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+      github: "https://github.com/Pen-gun/TaskManagement",
     },
   ]
 
