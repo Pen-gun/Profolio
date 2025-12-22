@@ -34,32 +34,32 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Online Bookstore",
+      title: "GraphGeneration - AI Learning Assistant",
       description:
-        "A full-featured e-commerce platform for buying and selling books online with user authentication, shopping cart, and order management.",
-      tech: ["React", "Firebase", "Firestore", "Authentication"],
+        "Full-stack AI-powered learning platform with ChatGPT-style interface that generates educational content with interactive Mermaid diagrams. Features conversation management, JWT authentication, and multi-turn context awareness.",
+      tech: ["React", "TypeScript", "Node.js", "MongoDB", "Ollama", "TanStack Query", "Tailwind CSS"],
+      github: "https://github.com/Pen-gun/GraphGeneration",
+    },
+    {
+      title: "Wizards Bookstore",
+      description:
+        "E-Commerce website for buying and selling books online with user authentication, shopping cart, and order management. Built with React and Firebase for real-time data synchronization.",
+      tech: ["React", "Firebase", "Firestore", "Tailwind CSS", "Authentication"],
       github: "https://wizardsbookstore.web.app/",
     },
     {
-      title: "YouTube to MP3 Downloader",
+      title: "YouTube Clone Backend",
       description:
-        "Web application that converts YouTube videos to MP3 format with a clean interface and fast processing using Flask backend.",
-      tech: ["React", "Flask", "MongoDB", "Python", "REST API"],
-      github: "#",
+        "Backend API for a YouTube-like platform with video upload functionality, user authentication using JWT, and cloud storage integration with Cloudinary for media management.",
+      tech: ["Node.js", "Express", "MongoDB", "Cloudinary", "JWT", "Multer"],
+      github: "https://github.com/Pen-gun/Youtube",
     },
     {
-      title: "AI Music Generator",
+      title: "SoftechAI",
       description:
-        "Deep learning model using LSTM networks to generate original MIDI music compositions based on training data patterns.",
-      tech: ["Python", "TensorFlow", "LSTM", "MIDI Processing"],
-      github: "#",
-    },
-    {
-      title: "Task Management System",
-      description:
-        "Enterprise-level task tracking application with role-based access control, team collaboration, and real-time updates.",
-      tech: ["C#", "ASP.NET", "SQL Server", "Entity Framework"],
-      github: "#",
+        "Full-stack AI application with React frontend and Python backend. Implements AI-powered features with periodic cleanup utilities for temporary files and efficient resource management.",
+      tech: ["React", "TypeScript", "Python", "Vite", "Tailwind CSS"],
+      github: "https://github.com/Pen-gun/SoftechAI",
     },
   ]
 
@@ -330,7 +330,7 @@ export default function Portfolio() {
 
               <div className="space-y-4 mb-8">
                 <a
-                  href="mailto: paraslimbu7115@gmail.com"
+                  href="https://mailto: paraslimbu7115@gmail.com"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Mail className="h-5 w-5" />
