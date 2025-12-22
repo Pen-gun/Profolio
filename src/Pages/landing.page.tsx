@@ -358,7 +358,7 @@ export default function Portfolio() {
             </div>
 
             <Card className="p-6 border-border">
-              <form className="space-y-4">
+              <form className="space-y-4" onSubmit={(e) => { e.preventDefault(); alert("functionality not added"); }}>
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2">
                     Name
