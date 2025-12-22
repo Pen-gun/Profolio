@@ -1,4 +1,5 @@
 # Paras Limbu Portfolio
+https://profolio-a0ozl3793-paras078-academiacolls-projects.vercel.app/
 
 Personal portfolio built with React, TypeScript, Vite, and Tailwind CSS. It highlights projects, skills, and contact details with dark mode support and smooth in-page navigation.
 
