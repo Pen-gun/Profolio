@@ -27,7 +27,7 @@ export default function Portfolio() {
 
   const skills = {
     frontend: ["React", "Vite", "HTML", "CSS", "JavaScript", "Tailwind CSS"],
-    backend: ["Node.js", "Express", "Python", "Flask", "REST APIs"],
+    backend: ["Node.js", "Express", "REST APIs"],
     databases: ["MongoDB", "Firebase", "SQL", "Database Design"],
     tools: ["Git", "Authentication", "System Design", "AI/ML"],
   }
@@ -38,7 +38,7 @@ export default function Portfolio() {
       description:
         "A full-featured e-commerce platform for buying and selling books online with user authentication, shopping cart, and order management.",
       tech: ["React", "Firebase", "Firestore", "Authentication"],
-      github: "#",
+      github: "https://wizardsbookstore.web.app/",
     },
     {
       title: "YouTube to MP3 Downloader",
@@ -160,7 +160,7 @@ export default function Portfolio() {
         <div className="mx-auto max-w-6xl">
           <div className="max-w-3xl">
             <p className="text-sm text-muted-foreground mb-4">Hello, I'm</p>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-balance">Your Name</h1>
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-balance">Paras Limbu</h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">Full-Stack Developer & CS Student</p>
             <p className="text-lg text-muted-foreground mb-10 leading-relaxed max-w-2xl">
               A problem-solver who builds real-world applications. Passionate about creating elegant solutions to
@@ -330,29 +330,29 @@ export default function Portfolio() {
 
               <div className="space-y-4 mb-8">
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto: paraslimbu7115@gmail.com"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Mail className="h-5 w-5" />
-                  <span>your.email@example.com</span>
+                  <span>paraslimbu7115@gmail.com</span>
                 </a>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/pen-gun"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Github className="h-5 w-5" />
-                  <span>github.com/yourusername</span>
+                  <span>github.com/pen-gun</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/paras-limbu-8bb433289/?originalSubdomain=np"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Linkedin className="h-5 w-5" />
-                  <span>linkedin.com/in/yourusername</span>
+                  <span>linkedin.com/in/paras-limbu</span>
                 </a>
               </div>
             </div>
@@ -390,7 +390,7 @@ export default function Portfolio() {
       <footer className="py-8 px-6 border-t border-border">
         <div className="mx-auto max-w-6xl">
           <p className="text-center text-sm text-muted-foreground">
-            © 2025 Your Name. Built with Next.js & Tailwind CSS
+            © 2025 Paras Limbu. Built with MERN Stack.
           </p>
         </div>
       </footer>
