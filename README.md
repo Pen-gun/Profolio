@@ -48,7 +48,6 @@ npm run lint
 - GraphGeneration – AI learning assistant with chat-style UI and Mermaid diagram generation
 - Wizards Bookstore – React + Firebase e-commerce for books
 - YouTube Clone Backend – Express API with JWT auth, uploads, and Cloudinary
-- SoftechAI – Full-stack AI app with React/TypeScript frontend and Python backend
 
 ## License
 This project is licensed under the MIT License.
